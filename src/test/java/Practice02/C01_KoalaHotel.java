@@ -35,3 +35,7 @@ public class C01_KoalaHotel extends TestBase {
         Assert.assertTrue(logInText02.getText().contains("Log in"));
     }
 }
+
+/*
+
+ */
