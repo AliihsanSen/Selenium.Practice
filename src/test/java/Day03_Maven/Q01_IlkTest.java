@@ -1,10 +1,11 @@
 package Day03_Maven;
 
-import AutomationExercise.TestBase;
+
+import Utilities.TestBaseBeforeMethodAfterMethod;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-public class Q01_IlkTest extends TestBase {
+public class Q01_IlkTest extends TestBaseBeforeMethodAfterMethod {
 
     @Test
     public void name() {
