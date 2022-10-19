@@ -1,12 +1,13 @@
 package Day02_LoginTest;
 
-import AutomationExercise.TestBase;
+
+import Utilities.TestBaseBeforeMethodAfterMethod;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
-public class Q01_LoginTest extends TestBase {
+public class Q01_LoginTest extends TestBaseBeforeMethodAfterMethod {
 
     @Test
     public void name() {
