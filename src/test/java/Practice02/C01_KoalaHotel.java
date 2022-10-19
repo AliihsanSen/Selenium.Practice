@@ -1,12 +1,13 @@
 package Practice02;
 
-import AutomationExercise.TestBase;
+
+import Utilities.TestBaseBeforeClassAfterClass;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class C01_KoalaHotel extends TestBase {
+public class C01_KoalaHotel extends TestBaseBeforeClassAfterClass {
 
     @Test
     public void test01() {
